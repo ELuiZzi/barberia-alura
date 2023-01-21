@@ -1,0 +1,154 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caja {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+.productos {
+    width: 940px;
+    ;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.producto {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.producto:hover {
+    border-color: #c78c19;
+}
+
+.producto:hover h2 {
+    font-size: 33px;
+}
+
+.producto:active {
+    border-color: #088c19;
+}
+
+.producto h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+form{
+    margin: 40px 0;
+}
+
+.label-patron{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-patron{
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 10px 25px;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar-boton{
+    background: orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 15px 0;
+    width: 40%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: 0.7s all;
+}
+
+.enviar-boton:hover{
+    background: darkorange;
+    transform: scale(1.01);
+}
+
+table{
+    margin: 40px;
+}
+
+table thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+table th, table td{
+    border: solid 1px #000;
+    padding: 6px 15px;
+}
